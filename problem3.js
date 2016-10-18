@@ -46,8 +46,6 @@ function timer(someFunction,param1,param2){
   var timedifstring = timedif.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
   console.log("Took " + timedifstring + " ms");
   return timedif;
-  //this should reset the cache
-  var total = 0;
 }
 
 //prime generating function

@@ -30,6 +30,4 @@ function timer(someFunction){
   var timedifstring = timedif.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
   console.log("Took " + timedifstring + " ms");
   return timedif;
-  //this should reset the cache
-  var total = 0;
 }
